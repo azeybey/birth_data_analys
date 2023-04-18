@@ -39,18 +39,29 @@ The data was preprocessed to handle missing and unknown values, convert categori
 Three machine learning models were selected to serve as the baseline:
 
 Logistic Regression
+
 Support Vector Machines (SVC)
+
 Random Forest Classifier
+
 These models were trained on the dataset and their performance was evaluated using classification metrics such as accuracy, precision, recall, and F1 score.
+
+
+Support Vector Machines (SVM) with the default Radial basis function (RBF) kernel can be computationally expensive, especially when dealing with large datasets or high-dimensional data. Due to the high volume of the Birth Data(616382, 12) and limited computational resources SVC model training process couldn't be completed.
+
 
 4. Experiments
 
 Five experiments were conducted to improve the baseline models:
 
-Feature scaling: The appropriate features were scaled using the StandardScaler.
-Feature engineering: Polynomial features (2nd and 3rd order) were added to the dataset.
-Dimensionality reduction: Principal Component Analysis (PCA) was applied to the dataset.
+Feature scaling: The continuous features were scaled using the StandardScaler.
+
+Feature engineering: Polynomial feature (2nd order) was added to the dataset.
+
+Dimensionality reduction: Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) were applied to the dataset.
+
 Grid search for Random Forest: A grid search was conducted to find the optimal hyperparameters for the Random Forest classifier.
+
 Experimenting with other models: Gradient Boosting and XGBoost classifiers were evaluated.
 
 5. Table/Discussions
