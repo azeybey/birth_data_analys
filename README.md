@@ -13,15 +13,25 @@ The dataset used in this project contained birth records with several features, 
 Mother's age
 
 Father's age
+
 Prior living and dead births
+
 Interval since last pregnancy
+
 Cigarettes smoked before pregnancy
+
 Mother's Body Mass Index (BMI)
+
 Pre-pregnancy diabetes
+
 Pre-pregnancy hypertension
+
 Plurality recode
+
 Sex of the infant
+
 Assisted ventilation (target variable)
+
 The data was preprocessed to handle missing and unknown values, convert categorical variables to numerical values, and cast data types appropriately.
 
 3. Baseline Performance
