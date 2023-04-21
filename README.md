@@ -12,6 +12,8 @@ The research question was: Can we predict the need for assisted ventilation in n
 
 ## Dataset
 
+Te dataset was collected by the CDC, which contains vital information on live births within the United States to U.S. residents.
+
 ```bash
 wget https://data.nber.org/natality/2019/nber_output/US/birth_2019_nber_us.zip
 unzip birth_2019_nber_us.zip
